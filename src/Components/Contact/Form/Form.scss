@@ -1,0 +1,21 @@
+:root{
+    --primary-color: #c59a5a;
+    --secondary-color:#1e1e1e;
+    --focus-color: #aaaaaa;
+}
+
+.err{
+    color: rgb(230, 6, 6) !important;
+    margin-top: -20px;
+    margin-left: 25px ;
+}
+input:focus,textarea:focus{
+    outline: 4px solid  var(--focus-color) !important;
+}
+.section-title{
+    font-size: 38px;
+    font-weight: bold;
+}
+label{
+    margin-top: -10px;
+}
